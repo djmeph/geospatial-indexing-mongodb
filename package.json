@@ -4,7 +4,8 @@
   "description": "Example API for searching a geospatial index by radius.",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/djmeph/geospatial-indexing-mongodb/issues"
   },
-  "homepage": "https://github.com/djmeph/geospatial-indexing-mongodb#readme"
+  "homepage": "https://github.com/djmeph/geospatial-indexing-mongodb#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
 }
